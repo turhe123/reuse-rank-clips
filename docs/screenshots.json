@@ -1,0 +1,5 @@
+[
+  {"file":"01-popup.png","caption":"The menu bar popup with frequently reused clips promoted above recent history, each showing its use count.","alt":"ReuseRankClips popup with Frequent and Recent clip lists"},
+  {"file":"02-settings.png","caption":"Settings for the promotion threshold, history limits, paste behavior, and ignored apps.","alt":"ReuseRankClips Settings window"},
+  {"file":"03-accessibility-prompt.png","caption":"On first launch, the app explains why it needs Accessibility access before asking for it.","alt":"Alert explaining the optional Accessibility permission"}
+]

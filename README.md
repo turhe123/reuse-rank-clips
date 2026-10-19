@@ -1,5 +1,7 @@
 # ReuseRankClips
 
+**🌐 Website:** [turhe123.github.io/reuse-rank-clips](https://turhe123.github.io/reuse-rank-clips/)
+
 A clipboard history that learns which items you paste again and again and promotes them to a favorites list.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -30,7 +32,17 @@ Only plain text is captured; images and files are not.
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-popup.png" alt="ReuseRankClips popup with Frequent and Recent clip lists" width="720"></p>
+
+<p align="center"><em>The menu bar popup with frequently reused clips promoted above recent history, each showing its use count.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="ReuseRankClips Settings window" width="560"></p>
+
+<p align="center"><em>Settings for the promotion threshold, history limits, paste behavior, and ignored apps.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-accessibility-prompt.png" alt="Alert explaining the optional Accessibility permission" width="560"></p>
+
+<p align="center"><em>On first launch, the app explains why it needs Accessibility access before asking for it.</em></p>
 
 ## Install
 

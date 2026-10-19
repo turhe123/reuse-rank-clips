@@ -1,0 +1,60 @@
+{
+  "seo_title": "Clipboard history that ranks reuse",
+  "seo_description": "Free, open-source clipboard history for macOS that promotes the text you reuse to a Frequent list. Everything stays on your Mac: no accounts, no network.",
+  "hero_title_line1": "Your clipboard,",
+  "hero_title_accent": "ranked by reuse.",
+  "hero_sub": "ReuseRankClips counts what you copy and promotes the text you reuse into a Frequent list above your history. Press ⌘⇧V, pick a clip, and it pastes into the app you were using.",
+  "features_title": "Repeated text, always at hand.",
+  "features_sub": "A menu bar clipboard that sorts itself, keeps your data local, and stays out of your way.",
+  "features": [
+    {
+      "icon": "sparkles",
+      "title": "Automatic promotion",
+      "desc": "Each distinct text is counted every time it is copied or pasted back. At your threshold (3 by default, 2 to 20) it moves into Frequent, where it never expires."
+    },
+    {
+      "icon": "clipboard",
+      "title": "Frequent above Recent",
+      "desc": "The popup shows Frequent clips first with a use-count badge, then Recent. Rename, pin, demote or delete any clip from a right-click menu."
+    },
+    {
+      "icon": "keyboard",
+      "title": "Global hotkey and search",
+      "desc": "Open the popup with ⌘⇧V, or set your own shortcut. Type to filter by text or label, use the arrow keys to move, Return to paste, Escape to close."
+    },
+    {
+      "icon": "shield",
+      "title": "Privacy-minded capture",
+      "desc": "Items flagged as concealed or transient by password managers are skipped, as are clips from apps on your ignore list and anything over 1 MB."
+    },
+    {
+      "icon": "clock",
+      "title": "Control over history",
+      "desc": "Keep 50 to 1000 recent items and expire them after 1 day, 1 week, 30 days, 90 days or never. Frequent and pinned items are never removed."
+    },
+    {
+      "icon": "lock",
+      "title": "Local-only storage",
+      "desc": "Clips are saved as a JSON file on your Mac. The app makes no network connections and needs no account."
+    }
+  ],
+  "permissions_step": "To paste directly into the app you were using, grant Accessibility access in System Settings → Privacy & Security → Accessibility; without it, the app copies the clip and you paste it yourself.",
+  "faq": [
+    {
+      "q": "Is ReuseRankClips really free and open source?",
+      "a": "Yes. It is released under the MIT license, and the full source is on GitHub. There are no accounts, subscriptions or paid tiers; an optional Support button opens a Ko-fi page if you want to chip in."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Only Accessibility, and it is optional. macOS requires it for the app to send the Command-V keystroke that pastes into your previous app. If you decline, clips are still copied to the clipboard for you to paste manually. The app asks for no other permissions."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "In a single JSON file at ~/Library/Application Support/ReuseRankClips/clips.json on your Mac. Nothing is sent anywhere, and only plain text is captured. Delete the file or use Clear Recent History to remove it."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to launch it, or build it yourself from source with Xcode."
+    }
+  ]
+}
